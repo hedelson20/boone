@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boone Countdown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="countdown-container">
+    <h1 id="title">Days until Hunter graduates residency</h1>
+    <div id="countdown" aria-live="polite">
+      <div class="time-block">
+        <span id="days" class="time-value">--</span>
+        <span class="time-label">days</span>
+      </div>
+      <div class="time-block">
+        <span id="hours" class="time-value">--</span>
+        <span class="time-label">hours</span>
+      </div>
+      <div class="time-block">
+        <span id="minutes" class="time-value">--</span>
+        <span class="time-label">minutes</span>
+      </div>
+      <div class="time-block">
+        <span id="seconds" class="time-value">--</span>
+        <span class="time-label">seconds</span>
+      </div>
+    </div>
+    <p id="target-date">July 1, 2027</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
