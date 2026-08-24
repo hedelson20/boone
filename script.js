@@ -1,5 +1,5 @@
 (() => {
-  const TARGET = new Date('2027-07-01T00:00:00');
+  const TARGET = new Date('2027-06-19T10:00:00');
 
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
